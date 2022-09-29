@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <title>Login Form</title>
+    <link rel="shortcut icon" href="008 - Copy.JPG" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+<head>
+<style>
+
+form{
+       width: fit-content;
+       
+}
+
+
+label{
+
+     color: cadetblue;
+    font-size:medium ;
+    font-family: 'Poppins', sans-serif; 
+}
+input[type="text"], input[type="email"]{
+ color: rgb(227, 63, 151);
+ background-color:bisque ;
+width:180px;
+text-transform:uppercase;
+border-radius: 10px;
+
+}
+input[type="submit"], input[type="reset"]{
+ color: rgb(236, 75, 75);
+ background-color:bisque ;
+width: 100px;
+text-transform:uppercase;
+border-radius: 10px;
+height:20px;
+
+}
+input[type="submit"]:hover{
+    background-color:aqua ;
+}
+
+
+</style>
+
+</head>
+<body>
+       
+    <h2><strong>Student Registration Form</strong></h2>
+    <form>
+    <table width="30%" >
+          <tbody>
+            <tr>
+              <td><label>First Name:</label>
+              </td>
+              <td><input type="text"  placeholder="only first name" autofocus>
+              </td>
+            </tr>
+            
+              <tr>
+                <td><label>Last Name:</label></td>
+                <td><input type="text">
+                </td>
+              </tr>
+              <tr>
+                <td><label>Mobile</label></td>
+                <td><input type="number"></td>
+              </tr>
+              <tr>
+                  <td><label>Email</label></td>
+                  <td><input type="text" placeholder="abc@gmail.com"  autofocus><br></td>
+                </tr>
+                <tr>
+              <td><label>Date of Birth</labe></td>
+                    <td><input type="date"><br></td>
+                  </tr>
+                  <tr>
+              
+                    <td><label>pass out year</label></td>
+                    <td><input type="date"><br></td>
+                  </tr>
+                  <tr>
+              
+                    <td><label>country</label></td>
+                    <td><input type="text" value="india" disabled><br></td>
+                  </tr>
+                  <tr>
+                  <td><label>Citizenship</label></td>
+                  <td><input type="text" value="india" readonly><br></td>
+                </tr>
+                  <tr>
+    
+                      <td><label>Profile photo</label>
+                      </td>
+                      <td><input type="file"><td></td>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><label>upload all marksheet</label></td>
+                      <td><input type="file"  multiple><td></td>
+                    </tr>
+                    <tr>
+                    <td><label>Select Graduation</label></td>
+                    <td><select>
+                    <option>B.E </option>
+                    </select>
+                      </tr>
+                      <tr>
+                      <td><label>Training</label></td>
+                      <td>
+                      <input type="checkbox" checked><label>Angular</labe>
+                      <input type="checkbox"><label>React</label>
+                      <input type="checkbox"><label>Java</label>
+                      <input type="checkbox"><label>Testing</label>
+                      </td>
+              
+                      </tr>
+                      <tr>
+                        <td><label>Gender</label></td>
+                        <td>
+                        <input type="radio" name="male">   <label>male</label>
+                        <input type="radio"  name="Female" checked>  <label>Female</label>
+                        <input type="radio" name="other"  ><label>others</label>
+                      </td>
+                      </tr>
+                      <tr>
+                        <td><label>>Permanent Address</label></td>
+                        <td><textarea rows="6" cols="30"></textarea></td>
+                      </tr>
+                      <tr>
+                      <td> <input value="submit" type="submit" ></td>
+                      <td><input value="reset" type="reset"></td>
+                      </tr>
+
+          </tbody>
+        </table>
+        <br>
+      
+    
+    <b>SSO sign in option</b> &nbsp;&nbsp;<i class="fa fa-facebook-official" aria-hidden="true" font:3px></i>
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+    <i class="fa fa-google" aria-hidden="true"></i>
+
+</body>
+
+    
