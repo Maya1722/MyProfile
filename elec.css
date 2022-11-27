@@ -1,0 +1,36 @@
+body{
+
+    background-color: rgb(172, 114, 226);
+    
+}
+
+
+
+
+#myimage{
+
+                        border: 2px solid  black ;
+                        display: flex;
+                        margin-left:50px;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: row;
+}
+.electric{
+        color: rgb(219, 106, 31);
+        background-color: yellow;
+        border-style: solid black;
+
+}
+#uvsleft h2{
+    font-size: 24px;
+    margin: 10px ;
+    color: #d95b43;
+}
+#uvsleft{
+
+    text-align: center;
+}
+
+
+

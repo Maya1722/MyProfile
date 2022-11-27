@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(175, 122, 224);
+    font-style: 'Roboto', 'Times New Roman', Times, serif; 
+    font-style: normal;
+    font-weight: bold;
+    color: aqua;
+    font-size: 20px;
+
+}
+
+
+
+
+
+.cap1{
+
+    display:flex;
+    flex-direction: row;
+    justify-items:space-between ;
+    align-content: flex-start;
+    text-align: top;
+    text-decoration: solid;
+    border: 2px solid black;
+    margin-left: 15px;
+}
+.cap2{
+
+    display:flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-items: space-between;
+    text-align: top;
+    border: 2px solid black;
+    margin-left: 15px;
+}

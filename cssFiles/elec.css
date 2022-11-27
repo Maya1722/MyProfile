@@ -1,0 +1,35 @@
+body{
+
+background-color: rgb(136, 89, 180);
+font-style: bold black;
+
+}
+#myimage{
+                        
+              
+                        display: flex;
+                        margin-left:50px;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: row;
+}
+.data{
+    font-display: rgb(219, 106, 31);
+    background-color: rgb(223, 223, 69);
+    border-style: solid black;
+    font-family:'Roboto', 'Times New Roman', Times, serif;
+
+}
+#uvsleft h2{
+    font-size: 24px;
+    margin: 10px;
+    color: brown;
+    text-align:center;
+}
+#uvsleft{
+    
+    text-align: center;
+}
+
+
+
